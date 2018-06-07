@@ -5,5 +5,5 @@ provider:
 functions:
   factors:
     lang: csharp
-    handler: ./factors/
+    handler: ./factors
     image: rorpage/faas-factors
