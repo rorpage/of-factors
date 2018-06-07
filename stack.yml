@@ -1,0 +1,9 @@
+provider:  
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  factors:
+    lang: csharp
+    handler: ./factors/
+    image: rorpage/faas-factors
